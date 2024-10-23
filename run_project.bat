@@ -1,4 +1,6 @@
 @echo off
+echo Migrating DB...
+dotnet ef database update --project ManufacturingManagementSystem\
 echo Running unit tests...
 dotnet test
 IF %ERRORLEVEL% NEQ 0 (
