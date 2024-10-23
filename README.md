@@ -28,7 +28,7 @@ RESTful API для системы управления производство�
   > **Для этого у вас должен быть [скачан](https://www.postgresql.org/download/) и установлен PostgreSQL**
     
   - После того как вы настроили PostgreSQL, перейдите в папку `/ManufacturingManagementSystem.`
-  - Откройте файл appsetings.json c помощью любого рекдактора кода.
+  - Откройте файл `appsetings.json` c помощью любого рекдактора кода.
   - В строке
     > "DefaultConnection": "Host=localhost;Database=ManufacturingDB;Username=postgres;Password=PUT_YOUR_PASSWORD_HERE"
 
